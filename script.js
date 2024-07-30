@@ -39,6 +39,7 @@ async function fetchPokemons() {
 }
 
 // Exercise 2
+
 // 1
 async function fetchDogs() {
   try {
@@ -78,6 +79,7 @@ async function fetchDogs() {
 }
 
 // Exercise 3
+
 // 1
 async function fetchBooks() {
   try {
@@ -107,6 +109,7 @@ async function fetchBooks() {
 }
 
 // Exercise 4
+
 // 1
 async function fetchAttendees() {
   try {
