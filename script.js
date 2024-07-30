@@ -26,6 +26,14 @@ async function fetchPokemons() {
 
 fetchPokemons();
 
+// 2 teacher ver
+
+/* renderPokemons();
+async function renderPokemons() {
+  let pokemons = await fetchPokemons();
+  pokemons.forEach((pokemon) => console.log(pokemon));
+} */
+
 // 3
 async function fetchPokemons() {
   fetch("https://santosnr6.github.io/Data/pokemons.json")
@@ -38,6 +46,19 @@ async function fetchPokemons() {
     .catch((error) => console.log(error));
 }
 
+// teacher ver
+/* async function fetchPokemons() {
+  let pokemons = [];
+  await fetch("https")
+    .then((response) => response.json())
+    .then((data) => {
+      data.forEach((pokemon) => {
+        document.body.innerHTML += `${pokemon.name} <br>`;
+      });
+    })
+    .catch((error) => console.log(error));
+}
+ */
 // Exercise 2
 
 // 1

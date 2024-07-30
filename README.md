@@ -7,7 +7,7 @@ In this exercise you will code some simple API requests to a API containg a coup
 1. Request all the pokemons with fetch from the API.
 
 ```
-https://majazocom.github.io/Data/pokemons.json
+https://santosnr6.github.io/Data/pokemons.json
 ```
 
 2. Render the objects one and one in the console.
@@ -76,4 +76,7 @@ attending: true
   https://santosnr6.github.io/Data/pokemons.json
   ```
 
+  ```
+  https://santosnr6.github.io/Data/books.json
+  ```
   
